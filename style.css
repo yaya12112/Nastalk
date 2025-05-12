@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f8eecf;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    padding: 80px 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.text-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+.text-section h1 {
+    color: #7a2c1c;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+.image-section img {
+    max-width: 300px;
+    height: auto;
+}
+
+.features-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.features-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.features-section h2 {
+    color: #7a2c1c;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.features-image img {
+    max-width: 200px;
+    height: auto;
+}
+
+.feature-badge {
+    background-color: #f7b733;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.feature-badge:hover {
+    background-color: #d17f00;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.main-header {
+    background-color: #fff5dc;
+    padding: 10px 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.btn-login {
+    background-color: #8B0000;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-login:hover {
+    background-color: #a50000;
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff5dc; /* Sesuaikan warna latar belakang */
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
